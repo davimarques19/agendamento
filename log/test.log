@@ -46,3 +46,65 @@ Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 200)
 Completed 200 OK in 196ms (Views: 189.6ms | ActiveRecord: 0.0ms | Allocations: 298863)
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-01-25 18:14:42 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 201)
+  Rendered layouts/_nav.html.erb (Duration: 0.3ms | Allocations: 103)
+Completed 200 OK in 529ms (Views: 524.2ms | ActiveRecord: 0.0ms | Allocations: 312318)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-01-25 18:14:42 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_nav.html.erb (Duration: 0.1ms | Allocations: 6)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 3483)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-01-25 18:15:25 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 201)
+  Rendered layouts/_nav.html.erb (Duration: 0.4ms | Allocations: 105)
+Completed 200 OK in 207ms (Views: 201.6ms | ActiveRecord: 0.0ms | Allocations: 300706)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-01-25 18:15:25 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_nav.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 3483)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-01-25 18:48:30 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 201)
+  Rendered layouts/_nav.html.erb (Duration: 0.4ms | Allocations: 107)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 92)
+Completed 200 OK in 195ms (Views: 189.8ms | ActiveRecord: 0.0ms | Allocations: 301025)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-01-25 18:48:30 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_nav.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3536)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-01-25 18:48:30 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_nav.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3533)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
