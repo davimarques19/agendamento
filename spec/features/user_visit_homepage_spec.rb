@@ -22,4 +22,10 @@ feature 'User visit homepage' do
 
     expect(page).to have_content('Buscar')
   end
+
+  scenario 'And view search option' do
+    visit root_path
+
+    expect(page).to have_content('Buscar')
+  end
 end
